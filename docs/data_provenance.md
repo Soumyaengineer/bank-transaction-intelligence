@@ -3,7 +3,7 @@
 **Source:** Kaggle — "Financial Transactions Dataset: Analytics" by computingvictor
 https://www.kaggle.com/datasets/computingvictor/transactions-fraud-datasets
 
-**Downloaded:** June 2026 <!-- TODO: exact date -->
+**Downloaded:** 2026-06-10
 **Licence:** <!-- TODO: copy licence name from the Kaggle page sidebar -->
 **Nature of data:** Synthetic banking data (no real customer PII).
 

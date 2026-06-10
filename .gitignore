@@ -1,0 +1,18 @@
+# Raw data — too large for git; see raw/README.md for source
+raw/*
+!raw/README.md
+
+# Database files built locally
+*.duckdb
+*.duckdb.wal
+*.db
+*.sqlite
+
+# Power BI temp/cache
+*.pbix.tmp
+~$*.pbix
+
+# OS / editor noise
+.DS_Store
+.vscode/
+__pycache__/

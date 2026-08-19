@@ -74,6 +74,11 @@ SELECT
     mcc_code,
     mcc_description,
     CASE
+        -- NB: this dataset does NOT follow ISO 18245 in the 3000s —
+        -- profiling showed industrial/manufacturing descriptions there,
+        -- not airlines/hotels. Grouped by verified descriptions.
+        WHEN mcc_code IN (3722, 3771, 3775)  THEN 'Transport & Travel'  -- railways
+        WHEN mcc_code BETWEEN 3000 AND 3999 THEN 'Industrial & Manufacturing'
         WHEN mcc_code BETWEEN 4000 AND 4799 THEN 'Transport & Travel'
         WHEN mcc_code BETWEEN 4800 AND 4999 THEN 'Utilities & Telecom'
         WHEN mcc_code BETWEEN 5000 AND 5499 THEN 'Retail & Grocery'

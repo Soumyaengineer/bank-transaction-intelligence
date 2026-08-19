@@ -19,3 +19,7 @@ __pycache__/
 
 # Model exports — rebuilt via sql/, transferred to Power BI outside git
 model/*.parquet
+
+# Power BI file — 330 MB (13.3M-row import) exceeds GitHub's 100 MB limit.
+# Rebuild: run sql/01-05, then import model/*.parquet. See dashboard/README.md.
+dashboard/*.pbix

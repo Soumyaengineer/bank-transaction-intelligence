@@ -16,3 +16,6 @@ raw/*
 .DS_Store
 .vscode/
 __pycache__/
+
+# Model exports — rebuilt via sql/, transferred to Power BI outside git
+model/*.parquet

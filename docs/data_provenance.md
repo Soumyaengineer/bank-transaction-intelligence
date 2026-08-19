@@ -4,7 +4,11 @@
 https://www.kaggle.com/datasets/computingvictor/transactions-fraud-datasets
 
 **Downloaded:** 2026-06-10
-**Licence:** <!-- TODO: copy licence name from the Kaggle page sidebar -->
+**Licence:** [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0), as
+stated on the Kaggle dataset page — permissive, attribution required.
+The raw files are not redistributed in this repository (see `.gitignore` and
+`raw/README.md`); only derived analysis and documentation are published. The
+MIT licence in this repo covers the code and documentation.
 **Nature of data:** Synthetic banking data (no real customer PII).
 
 ## Verified at staging (raw/)

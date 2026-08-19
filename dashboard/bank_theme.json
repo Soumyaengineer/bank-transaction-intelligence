@@ -1,0 +1,19 @@
+{
+  "name": "HarborTrust BI",
+  "dataColors": ["#1F3A5F", "#A63D40", "#6B8CAE", "#C9A227", "#4A6D57", "#8B6C8F"],
+  "background": "#FFFFFF",
+  "foreground": "#252423",
+  "tableAccent": "#1F3A5F",
+  "textClasses": {
+    "title":    { "fontFace": "Segoe UI Semibold", "fontSize": 12, "color": "#1F3A5F" },
+    "callout":  { "fontFace": "Segoe UI", "fontSize": 30, "color": "#1F3A5F" },
+    "label":    { "fontFace": "Segoe UI", "fontSize": 9,  "color": "#605E5C" },
+    "header":   { "fontFace": "Segoe UI Semibold", "fontSize": 11, "color": "#252423" }
+  },
+  "visualStyles": {
+    "*": { "*": {
+      "background": [{ "color": { "solid": { "color": "#FFFFFF" } }, "transparency": 0 }],
+      "border": [{ "show": false }]
+    } }
+  }
+}
